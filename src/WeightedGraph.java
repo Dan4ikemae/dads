@@ -2,7 +2,6 @@ import java.util.*;
 
 public class WeightedGraph {
     private final Map<Vertex, Map<Vertex, Integer>> adjVertices = new HashMap<>();
-
     public void addVertex(Vertex vertex) {
         adjVertices.putIfAbsent(vertex, new HashMap<>());
     }
