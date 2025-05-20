@@ -8,7 +8,6 @@ public class BreadthFirstSearch extends Search {
         super(start);
         bfs(graph, start);
     }
-
     private void bfs(WeightedGraph graph, Vertex start) {
         Queue<Vertex> queue = new LinkedList<>();
         marked.add(start);
