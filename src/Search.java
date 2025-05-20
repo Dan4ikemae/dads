@@ -2,7 +2,6 @@ import java.util.List;
 
 public abstract class Search {
     protected final Vertex start;
-
     public Search(Vertex start) {
         this.start = start;
     }
