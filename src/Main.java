@@ -12,7 +12,6 @@ public class Main {
         graph.addVertex(c);
         graph.addVertex(d);
         graph.addVertex(e);
-
         graph.addEdge(a, b, 4);
         graph.addEdge(a, c, 2);
         graph.addEdge(b, c, 1);
