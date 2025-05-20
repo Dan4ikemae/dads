@@ -18,7 +18,6 @@ public class Main {
         graph.addEdge(b, d, 5);
         graph.addEdge(c, d, 8);
         graph.addEdge(d, e, 6);
-
         BreadthFirstSearch bfs = new BreadthFirstSearch(graph, a);
         System.out.println("BFS path from A to E: " + bfs.pathTo(e));
         DijkstraSearch dijkstra = new DijkstraSearch(graph, a);
