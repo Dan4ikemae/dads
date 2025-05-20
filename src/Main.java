@@ -21,7 +21,6 @@ public class Main {
 
         BreadthFirstSearch bfs = new BreadthFirstSearch(graph, a);
         System.out.println("BFS path from A to E: " + bfs.pathTo(e));
-
         DijkstraSearch dijkstra = new DijkstraSearch(graph, a);
         System.out.println("Dijkstra path from A to E: " + dijkstra.pathTo(e));
         System.out.println("Distance from A to E: " + dijkstra.getDistanceTo(e));
